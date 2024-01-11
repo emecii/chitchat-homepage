@@ -48,7 +48,7 @@ const Footer = ({ t }: { t: TFunction }) => {
   return (
     <>
       <FooterSection>
-        <Container>
+        {/* <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:zian@chitchat-ai.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -104,7 +104,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LanguageSwitchContainer>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </FooterSection>
       <Extra>
         <Container border={true}>
@@ -123,7 +123,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
-            <FooterContainer>
+            {/* <FooterContainer>
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
@@ -146,7 +146,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 rel="noopener noreferrer"
               >
               </a>
-            </FooterContainer>
+            </FooterContainer> */}
           </Row>
         </Container>
       </Extra>
