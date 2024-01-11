@@ -1,0 +1,16 @@
+{
+  "title": "Powerful & Affordable",
+  "text": "Our systems offer strong, flexible solutions at an affordable price, tailored to meet all your business needs.",
+  "section": [
+    {
+      "title": "Why Chitchat?",
+      "content": "Chitchat's in-house developed RAG system leverages leading industry algorithms and infrastructures, offering a high-performance solution at a lower cost.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why RAG?",
+      "content": "The Retrieval Augmented Generation (RAG) approach diminishes the likelihood of hallucination, enhancing the system's precision and reliability.",
+      "icon": "notes.svg"
+    }
+  ]
+}
