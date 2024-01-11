@@ -145,12 +145,6 @@ const Footer = ({ t }: { t: TFunction }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
               </a>
             </FooterContainer>
           </Row>
