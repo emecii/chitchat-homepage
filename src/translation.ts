@@ -5,6 +5,8 @@ import XHR from "i18next-xhr-backend";
 import translationEn from "./locales/en/translation.json";
 import translationEs from "./locales/es/translation.json";
 import translationZh from "./locales/zh/translation.json";
+import AboutContentZh from "./content/AboutContent.zh.json"
+import AboutContentEn from "./content/AboutContent.json"
 i18n
   .use(XHR)
   .use(LanguageDetector)
@@ -21,15 +23,17 @@ i18n
     resources: {
       en: {
         translations: translationEn,
+        aboutContent: AboutContentEn
       },
       es: {
         translations: translationEs,
       },
       zh: {
         translations: translationZh, // 添加中文翻译
+        aboutContent: AboutContentZh
       },
     },
-    ns: ["translations"],
+    ns: ["translations","aboutContent"],
     defaultNS: "translations",
   });
 

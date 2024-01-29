@@ -1,41 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<path style="fill:#FFDA44;" d="M0,256c0,31.314,5.633,61.31,15.923,89.043L256,367.304l240.077-22.261
-	C506.367,317.31,512,287.314,512,256s-5.633-61.31-15.923-89.043L256,144.696L15.923,166.957C5.633,194.69,0,224.686,0,256z"/>
-<g>
-	<path style="fill:#D80027;" d="M496.077,166.957C459.906,69.473,366.071,0,256,0S52.094,69.473,15.923,166.957H496.077z"/>
-	<path style="fill:#D80027;" d="M15.923,345.043C52.094,442.527,145.929,512,256,512s203.906-69.473,240.077-166.957H15.923z"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <!-- 红色背景 -->
+    <rect width="512" height="512" fill="#DE2910"/>
+    <!-- 大星星 -->
+    <polygon fill="#FFDE00" points="102.4,96 118.4,142.08 172.8,142.08 124.8,175.36 140.8,221.44 102.4,188.16 64,221.44 80,175.36 32,142.08 86.4,142.08"/>
+    <!-- 四颗小星星 -->
+    <polygon fill="#FFDE00" transform="translate(166.4,85) rotate(53)" points="0,-20 5.9,-6.2 20,0 5.9,6.2 0,20 -5.9,6.2 -20,0 -5.9,-6.2"/>
+    <polygon fill="#FFDE00" transform="translate(192,110.6) rotate(75)" points="0,-20 5.9,-6.2 20,0 5.9,6.2 0,20 -5.9,6.2 -20,0 -5.9,-6.2"/>
+    <polygon fill="#FFDE00" transform="translate(204.8,146.6) rotate(10)" points="0,-20 5.9,-6.2 20,0 5.9,6.2 0,20 -5.9,6.2 -20,0 -5.9,-6.2"/>
+    <polygon fill="#FFDE00" transform="translate(192,182.6) rotate(-90)" points="0,-20 5.9,-6.2 20,0 5.9,6.2 0,20 -5.9,6.2 -20,0 -5.9,-6.2"/>
 </svg>

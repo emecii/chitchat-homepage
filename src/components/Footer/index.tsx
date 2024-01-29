@@ -48,7 +48,7 @@ const Footer = ({ t }: { t: TFunction }) => {
   return (
     <>
       <FooterSection>
-        {/* <Container>
+        <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
@@ -93,9 +93,9 @@ const Footer = ({ t }: { t: TFunction }) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                <LanguageSwitch onClick={() => handleChange("zh")}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="China.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -104,7 +104,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LanguageSwitchContainer>
             </Col>
           </Row>
-        </Container> */}
+        </Container>
       </FooterSection>
       <Extra>
         <Container border={true}>
@@ -123,7 +123,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
-            {/* <FooterContainer>
+            <FooterContainer>
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
@@ -146,7 +146,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 rel="noopener noreferrer"
               >
               </a>
-            </FooterContainer> */}
+            </FooterContainer>
           </Row>
         </Container>
       </Extra>
