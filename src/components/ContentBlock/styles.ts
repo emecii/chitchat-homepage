@@ -42,7 +42,7 @@ interface CenterContentProps {
 export const CenterContent = styled.div<CenterContentProps>`
   max-width: 1200px; /* 或你想要的最大宽度 */
   margin: 0 auto;
-  padding: ${({ paddingTB }) => paddingTB || '10px'} 0; /* 使用paddingTB参数或默认值 */
+  padding: ${({ paddingTB }) => paddingTB || '10px'} 1rem; /* 使用paddingTB参数或默认值 */
 `;
 
 export const MinTitle = styled("h6")`

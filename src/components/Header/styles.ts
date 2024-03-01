@@ -44,6 +44,7 @@ export const Burger = styled("div")`
     display: block;
   }
 
+  padding-right: 0.5rem;
   display: none;
 
   svg {

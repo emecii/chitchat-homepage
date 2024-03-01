@@ -35,7 +35,7 @@ export const useForm = (validate: any) => {
           'X-RapidAPI-Host': 'mail-sender-api1.p.rapidapi.com'
         },
         data: {
-          sendto: 'contact@customchat-ai.com',
+          sendto: 'evan@customchat-ai.com',
           ishtml: 'false',
           title: values.email + ' - ' + values.name + ' - is interested in CustomChat',
           body: 'Message: ' + values.message + '\n\n' + 'Email: ' + values.email + '\n\n' + 'Name: ' + values.name + '\n\n'
