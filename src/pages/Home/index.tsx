@@ -7,7 +7,7 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
-const DemoBlock = lazy(() => import("../../components/DemoBlock"));
+//const DemoBlock = lazy(() => import("../../components/DemoBlock"));
 
 const Home = ({ t }: { t: TFunction }) => {
   return (

@@ -116,14 +116,14 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="chitchat_logo.svg"
+                  src="customchat-ai-logo.svg"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="50px"
+                  height="50px"
                 />
               </LogoContainer>
             </NavLink>
-            <FooterContainer>
+            {/* <FooterContainer>
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
@@ -146,7 +146,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 rel="noopener noreferrer"
               >
               </a>
-            </FooterContainer>
+            </FooterContainer> */}
           </Row>
         </Container>
       </Extra>

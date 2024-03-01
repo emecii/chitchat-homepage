@@ -13,6 +13,8 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  align-items: center; // 确保图标垂直居中
+  gap: 10px; // 创建间距，根据需要调整
 `;
 
 export const NavLink = styled("div")`
