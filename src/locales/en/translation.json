@@ -24,5 +24,51 @@
   "Name" : "Name",
   "Your Name": "Your Name",
   "Email" : "Email",
-  "Your Email": "Your Email"
+  "Your Email": "Your Email",
+  "IntroContent": {
+    "title": "Building Enterprise scale AI solutions for all businesses",
+    "text": "From Silicon Valley, our AI R&D team develops potent, efficient AI systems, scalable and adaptable. Save significant time and implement groundbreaking AI solutions swiftly.",
+    "button": [
+      {
+        "title": "Explore"
+      },
+      {
+        "title": "Learn more",
+        "color": "#fff"
+      }
+    ]
+  },
+  "MiddleBlockContent": {
+    "title": "Boost your workflow with AI chatbot powered by your knowledge base",
+    "text": "CustomChat comes with multi-modal data sources support including text, image, PDFs, and etc...",
+    "button": "Get started"
+  },
+  "AboutContent": {
+    "title": "Powerful & Affordable",
+    "text": "Our systems offer strong, flexible solutions at an affordable price, tailored to meet all your business needs.",
+    "section": [
+      {
+        "title": "Why CustomChat?",
+        "content": "CustomChat's in-house developed RAG system leverages leading industry algorithms and infrastructures, offering a high-performance solution at a lower cost.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "Why RAG?",
+        "content": "The Retrieval Augmented Generation (RAG) approach diminishes the likelihood of hallucination, enhancing the system's precision and reliability.",
+        "icon": "notes.svg"
+      }
+    ]
+  },
+  "MissionContent": {
+    "title": "Ready-to-use LLM RAG system",
+    "text": "The LLM RAG system merges advanced language modeling with real-time data retrieval, ensuring accurate and reliable content generation. Tailored for precision, it effortlessly reduces factual errors, ideal for applications needing up-to-date, factual information. Simply integrate it into your workflow for enhanced, fact-checked content creation."
+  },
+  "ProductContent": {
+    "title": "Contact us for demos!",
+    "text": "Curious about our LLM RAG technology? We're here to help! If you have any questions or need a deeper understanding, don't hesitate to contact us. Our team is ready to provide you with comprehensive demos and answer all your queries to the best of our abilities. Reach out for a personalized experience with our cutting-edge solution."
+  },
+  "ContactContent": {
+    "title": "Contact form",
+    "text": "If you have any questions or needs, contact us by filling out the form below. We look forward to hearing from you!"
+  }
 }

@@ -19,10 +19,56 @@
   "Learn more": "了解更多",
   "Get started": "开始",
   "Submit": "提交",
-  "Message" : "消息",
+  "Message": "消息",
   "Your Message": "你的消息",
-  "Name" : "姓名",
+  "Name": "姓名",
   "Your Name": "你的姓名",
-  "Email" : "电子邮件",
-  "Your Email": "你的电子邮件"
+  "Email": "电子邮件",
+  "Your Email": "你的电子邮件",
+  "IntroContent": {
+    "title": "为各行业企业构建定制化AI解决方案",
+    "text": "我们的AI研发团队致力于开发可扩展、高效且可定制的AI系统，旨在为企业节省时间并快速部署先进的AI技术。",
+    "button": [
+      {
+        "title": "立即探索"
+      },
+      {
+        "title": "深入了解",
+        "color": "#fff"
+      }
+    ]
+  },
+  "MiddleBlockContent": {
+    "title": "基于知识库的AI聊天机器人提升效率",
+    "text": "CustomChat提供包括文本、图片、PDF等多模态数据源支持，以增强工作流程和信息检索效率。",
+    "button": "立即开始"
+  },
+  "AboutContent": {
+    "title": "功能强大且价格合理",
+    "text": "我们提供经济实惠且功能强大的解决方案，满足企业各方面的需求，从专业医学信息输出到法律判决支持。",
+    "section": [
+      {
+        "title": "选择CustomChat的理由",
+        "content": "CustomChat结合顶尖算法和独家技术，为医疗、法律等领域提供专业、高效、创新的内容输出解决方案。",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "RAG技术优势",
+        "content": "通过检索增强生成技术，我们显著提高了信息的准确性和可靠性，有效减少误导信息。",
+        "icon": "notes.svg"
+      }
+    ]
+  },
+  "MissionContent": {
+    "title": "随时可用的LLM RAG系统",
+    "text": "结合先进语言模型和实时数据检索，我们的LLM RAG系统旨在为需要实时、准确信息的应用减少事实错误，提供精准可靠的内容生成。"
+  },
+  "ProductContent": {
+    "title": "了解我们的演示",
+    "text": "想深入了解LLM RAG技术？联系我们获取演示，我们的团队将提供全面解答，并展示我们解决方案的独特价值。"
+  },
+  "ContactContent": {
+    "title": "联系我们",
+    "text": "有任何疑问或需求，通过填写下方表单与我们联系。我们期待听到您的声音！"
+  }
 }
