@@ -18,7 +18,7 @@ const Home = ({ t }: { t: TFunction }) => {
         title={t("IntroContent.title")}
         content={t("IntroContent.text")}
         button={IntroContent.button}
-        icon="AIRocket.svg"
+        icon="RAGImage.svg"
         id="intro"
       />
       <MiddleBlock
