@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const ContentSection = styled("section")`
   position: relative;
   padding: 10rem 0 8rem;
+  background-color: #f0f2fa;
 
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
@@ -32,6 +33,16 @@ export const ServiceWrapper = styled("div")`
   display: flex;
   justify-content: space-between;
   max-width: 100%;
+`;
+
+interface CenterContentProps {
+  paddingTB?: string; // 顶部和底部的内边距
+}
+
+export const CenterContent = styled.div<CenterContentProps>`
+  max-width: 1200px; /* 或你想要的最大宽度 */
+  margin: 0 auto;
+  padding: ${({ paddingTB }) => paddingTB || '10px'} 0; /* 使用paddingTB参数或默认值 */
 `;
 
 export const MinTitle = styled("h6")`

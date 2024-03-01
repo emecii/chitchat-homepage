@@ -20,6 +20,7 @@ import {
   LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
+import { CenterContent } from "../ContentBlock/styles";
 
 interface SocialLinkProps {
   href: string;
@@ -49,105 +50,109 @@ const Footer = ({ t }: { t: TFunction }) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:zian@customchat-ai.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("zh")}>
-                  <SvgIcon
-                    src="China.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
-            </Col>
-          </Row>
+          <CenterContent>
+            <Row justify="space-between">
+              <Col lg={10} md={10} sm={12} xs={12}>
+                <Language>{t("Contact")}</Language>
+                <Large to="/">{t("Tell us everything")}</Large>
+                <Para>
+                  {t(`Do you have any question? Feel free to reach out.`)}
+                </Para>
+                <a href="mailto:zian@customchat-ai.com">
+                  <Chat>{t(`Let's Chat`)}</Chat>
+                </a>
+              </Col>
+              <Col lg={8} md={8} sm={12} xs={12}>
+                <Title>{t("Policy")}</Title>
+                <Large to="/">{t("Application Security")}</Large>
+                <Large to="/">{t("Software Principles")}</Large>
+              </Col>
+              <Col lg={6} md={6} sm={12} xs={12}>
+                <Empty />
+                <Large to="/">{t("Support Center")}</Large>
+                <Large to="/">{t("Customer Support")}</Large>
+              </Col>
+            </Row>
+            <Row justify="space-between">
+              <Col lg={10} md={10} sm={12} xs={12}>
+                <Empty />
+              </Col>
+              <Col lg={8} md={8} sm={12} xs={12}>
+                <Title>{t("Company")}</Title>
+                <Large to="/">{t("About")}</Large>
+                <Large to="/">{t("Blog")}</Large>
+                <Large to="/">{t("Press")}</Large>
+                <Large to="/">{t("Careers & Culture")}</Large>
+              </Col>
+              <Col lg={6} md={6} sm={12} xs={12}>
+                <Label htmlFor="select-lang">{t("Language")}</Label>
+                <LanguageSwitchContainer>
+                  <LanguageSwitch onClick={() => handleChange("en")}>
+                    <SvgIcon
+                      src="united-states.svg"
+                      aria-label="homepage"
+                      width="30px"
+                      height="30px"
+                    />
+                  </LanguageSwitch>
+                  <LanguageSwitch onClick={() => handleChange("zh")}>
+                    <SvgIcon
+                      src="China.svg"
+                      aria-label="homepage"
+                      width="30px"
+                      height="30px"
+                    />
+                  </LanguageSwitch>
+                </LanguageSwitchContainer>
+              </Col>
+            </Row>
+          </CenterContent>
         </Container>
       </FooterSection>
       <Extra>
         <Container border={true}>
-          <Row
-            justify="space-between"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
-          >
-            <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="customchat-ai-logo.svg"
-                  aria-label="homepage"
-                  width="50px"
-                  height="50px"
-                />
-              </LogoContainer>
-            </NavLink>
-            {/* <FooterContainer>
+          <CenterContent>
+            <Row
+              justify="space-between"
+              align="middle"
+              style={{ paddingTop: "3rem" }}
+            >
+              <NavLink to="/">
+                <LogoContainer>
+                  <SvgIcon
+                    src="customchat-ai-logo.svg"
+                    aria-label="homepage"
+                    width="50px"
+                    height="50px"
+                  />
+                </LogoContainer>
+              </NavLink>
+              <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://www.smart-msl.com/"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://www.smart-msl.com/"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.smart-msl.com/"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://www.smart-msl.com/"
                 src="medium.svg"
               />
               <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
+                href="https://www.smart-msl.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
               </a>
-            </FooterContainer> */}
-          </Row>
+            </FooterContainer>
+            </Row>
+          </CenterContent>
         </Container>
       </Extra>
     </>

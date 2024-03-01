@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0rem;
 
   .ant-row-space-between {
     align-items: center;
@@ -12,9 +12,13 @@ export const HeaderSection = styled("header")`
 `;
 
 export const LogoContainer = styled(Link)`
+  padding-left: 40px;
   display: flex;
   align-items: center; // 确保图标垂直居中
   gap: 10px; // 创建间距，根据需要调整
+  font-family: "Motiva Sans Bold, sans-serif";
+  font-size: 20px;
+  font-weight: 500;
 `;
 
 export const NavLink = styled("div")`

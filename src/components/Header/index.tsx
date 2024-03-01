@@ -59,8 +59,10 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-          <SvgIcon src="logo.svg" width="201px" height="120px" />
+            <SvgIcon src="customchat-ai-logo.svg" width="40px" height="40px" />
+            CustomChat AI
           </LogoContainer>
+          
           <NotHidden>
             <MenuItem />
           </NotHidden>

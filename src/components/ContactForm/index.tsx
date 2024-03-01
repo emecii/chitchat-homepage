@@ -9,6 +9,7 @@ import Block from "../Block";
 import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
+import { CenterContent } from "../ContentBlock/styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit } = useForm(validate);
@@ -24,6 +25,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
 
   return (
     <ContactContainer id={id}>
+      <CenterContent>
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left" triggerOnce>
@@ -69,6 +71,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
           </Slide>
         </Col>
       </Row>
+      </CenterContent>
     </ContactContainer>
   );
 };

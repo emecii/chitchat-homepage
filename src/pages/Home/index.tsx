@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import { withTranslation, TFunction } from "react-i18next";
+import { CenterContent } from "../../components/ContentBlock/styles";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -21,7 +22,9 @@ const Home = ({ t }: { t: TFunction }) => {
         icon="RAGImage.svg"
         id="intro"
       />
-      <DemoBlock />
+      <CenterContent paddingTB="50px">
+        <DemoBlock />
+      </CenterContent>
       <MiddleBlock
         title={t("MiddleBlockContent.title")}
         content={t("MiddleBlockContent.text")}
