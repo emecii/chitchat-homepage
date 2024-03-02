@@ -19,6 +19,10 @@ export const LogoContainer = styled(Link)`
   font-family: "Motiva Sans Bold, sans-serif";
   font-size: 20px;
   font-weight: 500;
+
+  @media only screen and (max-width: 500px) {
+    padding-left: 10px;
+  }
 `;
 
 export const NavLink = styled("div")`
